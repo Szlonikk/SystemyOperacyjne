@@ -1,0 +1,21 @@
+ 
+========================================================================
+Autor: Jakub Bednarz,                               Krakow, 11.04.2022
+========================================================================
+
+* Zawartosc:
+============
+1 programów w języku C rozwiązujących ćwiczenie 4 oraz pliki tekstowe producenta i konsumenta :
+zad4.c
+producent
+konsument
+
+
+Program Makefile kompilujący i uruchamiający zadanie przy pomocy polecenia: make runzad4
+Aby wyczyscic zawartosc katalogu (usunac zbedne pliki), nalezy wykonac: make clean
+Aby zarchiwizować i kompresować zawartość katalogu należy użyć polecenia: make tar
+
+
+
+
+

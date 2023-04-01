@@ -1,0 +1,29 @@
+ 
+========================================================================
+Autor: Jakub Bednarz,                               Krakow, 07.06.2022
+========================================================================
+
+* Zawartosc:
+============
+klient.c - wysyla polecenia do kolejki
+serwer.c - pobiera z kolejki oblicza i odsyla
+kolejki.h - interfejs
+kolejki.c - definicje
+
+Program Makefile kompilujący i uruchamiający zadania
+Kompilacja wszystkiego: make all
+uruchomienie make run8
+
+konsole xterm klienta zamykac po sekwencji ctrl+D
+konsole xterm serwera potraktować synalem ctrl+C
+inaczej kolejka się nie usunie
+
+
+
+Aby wyczyscic zawartosc katalogu (usunac zbedne pliki), nalezy wykonac: make clean
+Aby zarchiwizować i kompresować zawartość katalogu należy użyć polecenia: make tar
+
+
+
+
+

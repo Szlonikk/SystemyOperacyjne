@@ -1,0 +1,60 @@
+ 
+Funkcja fork tworzy 2^n-1 procesów dla n wywołań
+Każdy utworzony procs "rozdwaja się"
+======================================
+ PID = 17241
+ PPID = 16213
+ PGID = 17241
+
+ PID = 17269
+ PPID = 17241
+ PGID = 17241
+
+ PID = 17285
+ PPID = 17269
+ PGID = 17241
+
+ PID = 17286
+ PPID = 17241
+ PGID = 17241
+
+
+ PID = 17308
+ PPID = 17285
+ PGID = 17241
+
+ PID = 17310
+ PPID = 17269
+ PGID = 17241
+
+
+ PID = 17311
+ PPID = 17286
+ PGID = 17241
+
+
+ PID = 17340
+ PPID = 17241
+ PGID = 17241
+
+                                                         PID = 17241            PID = 17340
+                                                        PPID = 16213- - - - ->  PPID = 17241
+                                                        PGID = 17241            PGID = 17241
+                                                        /           \
+                                                       /             \
+                                                      /               \
+                                             PID = 17269                 PID = 17286
+                                            PPID = 17241                 PPID = 17241
+                                            PGID = 17241                 PGID = 17241
+                                            /       \                       \
+                                           /         \                       \
+                                          /           \                        \
+                                PID = 17285         PID = 17310                 PID = 17311
+                                PPID = 17269        PPID = 17269                PPID = 17286
+                                PGID = 17241        PGID = 17241                PGID = 17241
+                                /
+                               /
+                              /
+                        PID = 17308   PID = 17308
+                        PPID = 17285  PPID = 17285
+                        PGID = 17241  PGID = 17241

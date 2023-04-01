@@ -1,0 +1,33 @@
+ 
+========================================================================
+Autor: Jakub Bednarz,                               Krakow, 23.04.2022
+========================================================================
+
+* Zawartosc:
+============
+3 programy w języku C rozwiązujących ćwiczenie 5 oraz pliki tekstowe producenta i konsumenta :
+zad5.c
+producent.c
+konsument.c
+produkty.txt
+konsumpcje.txt
+
+
+Program Makefile kompilujący i uruchamiający zadania
+Kompilacja wszystkiego: make all
+Uruchomienie programu 5a: make runzad5A
+Uruchomienie programu 5b: make runzad5B
+
+producent.c: plik_we potok
+Przyjmuje dwa argumenty, pobiera dane z plik_we i przekazje je do wskazanego potoku
+konsument.c: plik_wy potok
+Przyjmuje dwa argumenty, pobiera dane z potoku i zapisuje je w plik_wy
+
+
+Aby wyczyscic zawartosc katalogu (usunac zbedne pliki), nalezy wykonac: make clean
+Aby zarchiwizować i kompresować zawartość katalogu należy użyć polecenia: make tar
+
+
+
+
+

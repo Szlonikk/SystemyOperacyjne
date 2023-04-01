@@ -1,0 +1,27 @@
+ 
+========================================================================
+Autor: Jakub Bednarz,                               Krakow, 04.05.2022
+========================================================================
+
+* Zawartosc:
+============
+3 programy w języku C rozwiązujących ćwiczenie 6 oraz plik naglowkowy:
+powielacz.c - powiela program inkremantator
+inkrementator.c - zwieksza wartosc w pliku o SK ilosc razy
+semafory.h - interfejs
+semafory.c - definicje funkcji dla semaforow
+
+
+Program Makefile kompilujący i uruchamiający zadania
+Kompilacja wszystkiego: make all
+Uruchomienie programu powielacz jako 3 procest i 2 SK : make run6
+Bez synchronizacji: make run6ns
+
+
+Aby wyczyscic zawartosc katalogu (usunac zbedne pliki), nalezy wykonac: make clean
+Aby zarchiwizować i kompresować zawartość katalogu należy użyć polecenia: make tar
+
+
+
+
+

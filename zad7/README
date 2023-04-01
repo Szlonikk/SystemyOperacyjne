@@ -1,0 +1,33 @@
+ 
+========================================================================
+Autor: Jakub Bednarz,                               Krakow, 24.05.2022
+========================================================================
+
+* Zawartosc:
+============
+dzielona.h - interfejs
+dzielona.c - definicje funkcji dla pamieci dzielonej
+semafory.h - interfejs
+semafory.c - definicje funkcji dla semaforow
+zad7.c - program uruchamiajacy cale zadanie
+producent.c - program producenta
+konsument.c - program konsumenta
+surowce - produkty do skopiowania
+skonsumowane - docelowe miejsce produktow
+
+Program Makefile kompilujący i uruchamiający zadania
+Kompilacja wszystkiego: make all
+uruchomienie standardowe: make zad7
+uruchomienie z biblioteki statycznej: make zad7s
+uruchomienie z biblioteki dynamicznej 1: make zad7d1
+uruchomienie z biblioteki dynamicznej 2: make zad7d2
+
+
+
+Aby wyczyscic zawartosc katalogu (usunac zbedne pliki), nalezy wykonac: make clean
+Aby zarchiwizować i kompresować zawartość katalogu należy użyć polecenia: make tar
+
+
+
+
+

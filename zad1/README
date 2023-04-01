@@ -1,0 +1,23 @@
+ 
+========================================================================
+Autor: Jakub Bednarz,                               Krakow, 21.03.2022
+========================================================================
+
+* Zawartosc:
+============
+5 programów w języku C rozwiązujących zadania z zestawu pierwszego:
+a.c
+b.c
+c.c
+d.c
+e.c
+
+Plik nagłówkowy procesy.h zawierający funkcję wyświetlającą PID,UID,PPID,GID,PGID
+
+Program Makefile kompilujący wszystkie zadania przy pomocy polecenia: make all
+Aby wyczyscic zawartosc katalogu (usunac zbedne pliki), nalezy wykonac: make clean
+Aby zarchiwizować i kompresować zawartość katalogu należy użyć polecenia: make tar
+
+Aby uruchamiać kolejne programy używać polecenia ./(nazwaprogramu)
+
+Plik tekstowy z odpowiedziami na pytania: odpowiedzi.txt

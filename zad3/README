@@ -1,0 +1,22 @@
+ 
+========================================================================
+Autor: Jakub Bednarz,                               Krakow, 05.04.2022
+========================================================================
+
+* Zawartosc:
+============
+3 programów w języku C rozwiązujących zadania z zestawu pierwszego:
+zad1.c
+zad2.c
+zad3.c
+
+
+Program Makefile kompilujący wszystkie zadania przy pomocy polecenia: make all
+Aby wyczyscic zawartosc katalogu (usunac zbedne pliki), nalezy wykonac: make clean
+Aby zarchiwizować i kompresować zawartość katalogu należy użyć polecenia: make tar
+
+Aby uruchamiać kolejne programy używać polecenia ./(nazwaprogramu) (parametr) (sygnal)
+
+parametry: k-operacja domyslna, i-ignorowanie, s-obsluzenie
+
+

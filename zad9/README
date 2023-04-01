@@ -1,0 +1,25 @@
+ 
+========================================================================
+Autor: Jakub Bednarz,                               Krakow, 13.06.2022
+========================================================================
+
+* Zawartosc:
+============
+cwiczenie9.c - program wykonujacy polecenie
+watki.h - interfejs
+watki.c - definicje
+
+Program Makefile kompilujący i uruchamiający zadania
+Kompilacja wszystkiego: make all
+uruchomienie make run9
+
+
+
+
+Aby wyczyscic zawartosc katalogu (usunac zbedne pliki), nalezy wykonac: make clean
+Aby zarchiwizować i kompresować zawartość katalogu należy użyć polecenia: make tar
+
+
+
+
+
