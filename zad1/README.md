@@ -38,12 +38,12 @@ W celu narysowania drzewa genealogicznego procesów, najpierw skopiować do plik
     (PID2a,PPID2a,PGID2a)      (PID2b,PPID2b,PGID2b)
 ```
  
-========================================================================
-Autor: Jakub Bednarz,                               Krakow, 21.03.2022
-========================================================================
+
+# Autor: Jakub Bednarz,                               Krakow, 21.03.2022
+
 
 * Zawartosc:
-============
+
 5 programów w języku C rozwiązujących zadania z zestawu pierwszego:
 a.c
 b.c
