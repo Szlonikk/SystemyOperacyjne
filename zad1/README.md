@@ -54,7 +54,9 @@ e.c
 Plik nagłówkowy procesy.h zawierający funkcję wyświetlającą PID,UID,PPID,GID,PGID
 
 Program Makefile kompilujący wszystkie zadania przy pomocy polecenia: make all
+
 Aby wyczyscic zawartosc katalogu (usunac zbedne pliki), nalezy wykonac: make clean
+
 Aby zarchiwizować i kompresować zawartość katalogu należy użyć polecenia: make tar
 
 Aby uruchamiać kolejne programy używać polecenia ./(nazwaprogramu)
